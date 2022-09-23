@@ -1,4 +1,5 @@
 import random
+#logic
 def start_game():
     mat = []
     for i in range(4):
@@ -120,7 +121,7 @@ def move_left(mat):
     new=compress(new)
     return new 
 
-
+#main
 mat = start_game()
 mat[1][3] = 2
 mat[2][2] = 2
